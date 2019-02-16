@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.example.seeme.ApplicationHelper;
+import com.example.seeme.managers.listeners.OnDataChangedListener;
 import com.example.seeme.model.Post;
 
 public class PostManager {
@@ -31,5 +32,9 @@ public class PostManager {
         } catch (Exception e) {
             Log.e(TAG, e.getMessage());
         }
+    }
+
+    public void getPosts(OnDataChangedListener<Post> onDataChangedListener) {
+        ApplicationHelper.getDatabaseHelper().getPostList(onDataChangedListener);
     }
 }
