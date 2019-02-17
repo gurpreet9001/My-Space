@@ -4,10 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
-/**
- * Created by Kristina on 10/17/16.
- */
-
 public class FormatterUtil {
 
     public static String firebaseDBDate = "yyyy-MM-dd'T'HH:mm:ss.SSSZ";

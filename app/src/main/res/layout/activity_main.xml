@@ -21,4 +21,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         />
+    <ListView
+        android:id="@+id/postsListView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
 </RelativeLayout>
