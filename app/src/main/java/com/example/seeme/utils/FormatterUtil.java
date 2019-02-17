@@ -1,4 +1,4 @@
-package com.example.seeme.util;
+package com.example.seeme.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

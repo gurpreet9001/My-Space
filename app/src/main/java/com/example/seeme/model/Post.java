@@ -1,6 +1,6 @@
 package com.example.seeme.model;
 
-import com.example.seeme.util.FormatterUtil;
+import com.example.seeme.utils.FormatterUtil;
 
 import java.util.Date;
 import java.util.HashMap;
